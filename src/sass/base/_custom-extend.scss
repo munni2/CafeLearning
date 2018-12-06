@@ -1,0 +1,47 @@
+@import 'base/variable';
+/*button style*/
+.tem-btn {
+    display: inline-block;
+    color: #720000;
+    background-color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    &:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.arrow_btn{
+    background-color: $black-colour;
+    width: 59px;
+    height: 56px;
+    border-radius: 50%;
+    top: 50px;
+}
+/*heading style*/
+.headingstyle{
+    font-family: 'Amatic SC', cursive;
+    font-size: 77px;
+    color: $primary-colour;
+    display: block;
+}
+/*button style code*/
+%btn-style{
+    color: $primary-colour;
+    font-weight: bold;
+    padding: 20px 0px 0px 0px;
+    margin-left: 20px;
+    border-bottom: 1px solid #fff; 
+    font-size: 12px;
+    &:hover{
+        color: #fff;
+        border-bottom: 1px solid #fff; 
+        text-decoration: none;
+    }
+}
+
+
+
